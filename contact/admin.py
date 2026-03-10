@@ -10,4 +10,10 @@ class ContactAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_max_show_all = 100
     list_editable = 'first_name','last_name', #edita direto da tabela, não é recomendável
-    list_display_links = 'id','phone' ,              
+    list_display_links = 'id','phone',   
+
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = 'name',
+    ordering = 'id',
+         
