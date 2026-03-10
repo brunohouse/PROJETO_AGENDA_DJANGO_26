@@ -5,6 +5,8 @@
 __pycache__
 db.sqlite3
 .vscode
+static/
+media/
 
 
 # Backup files # 
@@ -17,7 +19,7 @@ db.sqlite3
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea/misc.xml,
+.idea/misc.xml
 .idea/jsLibraryMappings.xml
 
 # AWS User-specific
