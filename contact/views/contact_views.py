@@ -39,8 +39,6 @@ def search(request):
                 )\
         .order_by('-id')
     
-    # print(contacts.query)  mostra a query(caminho) que o programa percorre e solicita no banco de dados
-    
     context = {
         'contacts': contacts,
         'site_title': 'Search - ',
