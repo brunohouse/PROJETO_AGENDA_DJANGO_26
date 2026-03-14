@@ -8,6 +8,11 @@ from contact.models import Contact
 # Create your views here.
 
 def create(request):
+    if request.method == 'POST':
+        print(request.method)
+        print(request.POST.get('first_name'))
+        print(request.POST.get('last_name'))
+
     context = {
 
     }
